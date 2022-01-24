@@ -1,0 +1,21 @@
+{
+  "name": "@microssr/ts-jsx-str",
+  "version": "0.1.0",
+  "description": "JSX to string renderer for TypeScript",
+  "main": "dist/index.js",
+  "repository": "https://github.com/microssr/ts-jsx-str",
+  "author": "David Delassus <david.jose.delassus@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint",
+    "build": "tsc",
+    "watch": "tsc -d --watch"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.10.0",
+    "@typescript-eslint/parser": "^5.10.0",
+    "eslint": "^8.7.0",
+    "typescript": "^4.5.5"
+  }
+}
