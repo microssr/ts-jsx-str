@@ -9,7 +9,7 @@ JSX templates to string.
 ## :package: Installation
 
 ```
-$ yarn add -D @microssr/ts-jsx-str @types/microssr-ts-jsx-str
+$ yarn add -D @microssr/ts-jsx-str @microssr/typings-ts-jsx-str
 ```
 
 ## :construction: Usage
@@ -20,7 +20,8 @@ In your `tsconfig.json` add the following:
 {
   "compilerOptions": {
     "jsx": "react",
-    "jsxFactory": "JSX.createElement"
+    "jsxFactory": "JSX.createElement",
+    "types": ["@microssr/typings-ts-jsx-str"]
   }
 }
 ```
